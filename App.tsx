@@ -1,60 +1,75 @@
 import React, { useState } from 'react';
-import { SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet,View, Text, Button, ScrollView, RefreshControl } from 'react-native';
 
-export default function App() {
-  // BƯỚC 2: State
-  const [count, setCount] = useState(0);
 
-  // BƯỚC 3: Hàm Logic
-  const handleIncrease = () => {
-    setCount(count + 1);
-  };
 
-  const handleDecrease = () => {
-    setCount(count - 1);
-  };
-
-  const handleReset = () => {
-    setCount(0);
+const App = () => {
+  const [refershing , setRefershing] = useState(false)
+  const [item,setItem] = useState([ {key:1,name:"iteam 1"},
+    {key:2,name:"iteam 1"},
+    {key:3,name:"iteam 2"},
+    {key:4,name:"iteam 3"},
+    {key:5,name:"iteam 4"},
+    {key:6,name:"iteam 5"}, 
+    {key:7,name:"iteam 6"},
+    {key:8,name:"iteam 7"},
+    {key:9,name:"iteam 8"},
+    {key:10,name:"iteam 9"},
+    {key:11,name:"iteam 10"}]
+  )
+  const onChangeNumber = () => {
+    setItem([{key:12,name:"iteam12"}])
   }
-
-  // BƯỚC 4: Gắn vào JSX
+  const onChangeRefreshing = () => {
+    setRefershing(true)
+    setItem([...item,{key:13,name:"iteam 27"}])
+    setRefershing(false)
+  }
+  
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>ỨNG DỤNG ĐẾM SỐ</Text>
+    <View style={styles.box}>
+      <ScrollView
+      refreshControl={
+        <RefreshControl
+        refreshing= {refershing}
+        onRefresh={onChangeRefreshing}
+        />
+      }
+      >
 
-      {/* Hiển thị State */}
-      <View style={styles.box}>
-        <Text style={styles.countText}>{count}</Text>
-      </View>
-
-      {/* Cụm nút bấm */}
-      <View style={styles.buttonRow}>
-        <TouchableOpacity style={[styles.button, styles.btnRed]} onPress={handleDecrease}>
-          <Text style={styles.buttonText}>- Giảm</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={[styles.button, styles.btnGreen]} onPress={handleIncrease}>
-          <Text style={styles.buttonText}>+ Tăng</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={[styles.button, styles.btnBlue]} onPress={handleReset}>
-          <Text style={styles.buttonText}>Reset</Text>
-        </TouchableOpacity>
-      </View>
-    </SafeAreaView>
+       
+      {
+        item.map((key) => {
+          return(
+            <View style={styles.item}>
+        <Text style={styles.text}>{key.name}</Text>
+        </View>
+          )
+        }
+      )
+      }
+      <Button title='Change Number' onPress={onChangeNumber}></Button>
+      </ScrollView>
+    </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#f8fafc', padding: 20 },
-  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 20, color: '#0f172a' },
-  box: { width: 120, height: 120, backgroundColor: '#ffffff', borderRadius: 60, justifyContent: 'center', alignItems: 'center', borderWidth: 2, borderColor: '#cbd5e1', marginBottom: 30 },
-  countText: { fontSize: 40, fontWeight: 'bold', color: '#0284c7' },
-  buttonRow: { flexDirection: 'row', gap: 12 },
-  button: { paddingVertical: 14, paddingHorizontal: 24, borderRadius: 8 },
-  btnRed: { backgroundColor: '#ef4444' },
-  btnGreen: { backgroundColor: '#10b981' },
-  btnBlue:{backgroundColor:"blue"},
-  buttonText: { color: '#ffffff', fontWeight: 'bold', fontSize: 16 },
+  box: {
+    flex:1,
+    flexDirection:'column',
+    backgroundColor:'white'
+  },
+  item:{
+    margin:10,
+    backgroundColor:'blue',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  text:{
+    fontSize:50,
+    fontStyle:'italic',
+  }
 });
+
+export default App;
