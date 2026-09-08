@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Text, Button, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
 
 const App = () => {
   const [name,setName] = useState("");
   const [submit,setSubmit] = useState(false);
   const onChangeSubmit = () => {
-    setSubmit(!submit)
+    if(name.trim().length > 2){
+setSubmit(!submit)
+    }else{
+      Alert.alert("Thông báo","Mời bạn nhập tên đầy đủ",
+        [
+          { text: "Đã hiểu" },
+          { text: "Đóng" },
+          {text : "Về trang chủ"}
+        ])
+    }
   }
-
-
   return (
     <View style={styles.box}>
       <Text style={styles.title}>Enter your name</Text>
