@@ -11,6 +11,20 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		6865FE682AF94ED687452C43 /* ScoutieSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32B1F96B43C4B0CA1EA7A40 /* ScoutieSans-Bold.ttf */; };
+		95C848B0CC714E34B3E887F4 /* ScoutieSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9E7132106848A09DDC1287 /* ScoutieSans-BoldItalic.ttf */; };
+		3225D71409A64B3BA49D13B1 /* ScoutieSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEFB3F16218C478B99A4684D /* ScoutieSans-ExtraBold.ttf */; };
+		5310CA9EE67F455FBCC10367 /* ScoutieSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7067B4274ADC4A6A8A096F83 /* ScoutieSans-ExtraBoldItalic.ttf */; };
+		91E9AAB83CFB4745AD074734 /* ScoutieSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 279DC5B1FB064861AC1F1565 /* ScoutieSans-ExtraLight.ttf */; };
+		6C36D625341646E398FD2A5F /* ScoutieSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3EDB13E776141DDBD8C4D7B /* ScoutieSans-ExtraLightItalic.ttf */; };
+		C50A04A774DC4F1E8DC101D3 /* ScoutieSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE34DC8164A43AA9ACC8D5D /* ScoutieSans-Italic.ttf */; };
+		155F8FDF521242C0949AAAD4 /* ScoutieSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CEFD6AB99E34B67B29A1277 /* ScoutieSans-Light.ttf */; };
+		61B77B022A2348C692436965 /* ScoutieSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 838FA72FB2F24396B7C13968 /* ScoutieSans-LightItalic.ttf */; };
+		75CB6A1D85D94734BF084ADF /* ScoutieSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABAF704F6F2B4624A6A9DC5A /* ScoutieSans-Medium.ttf */; };
+		58460CD32DE3464AB4A34B2F /* ScoutieSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD2B4E9444BF4F1B9030CF47 /* ScoutieSans-MediumItalic.ttf */; };
+		5F36E05B974C4650A7CD2BAC /* ScoutieSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 753B8047E32643228FF38639 /* ScoutieSans-Regular.ttf */; };
+		AE47B3E128594CF6A3C23831 /* ScoutieSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413BF10A029E4514AB5A2797 /* ScoutieSans-SemiBold.ttf */; };
+		8C81C857727E45FD84C951D1 /* ScoutieSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 480C8D55A381469589FF16A7 /* ScoutieSans-SemiBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MyCliApp/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyCliApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C32B1F96B43C4B0CA1EA7A40 /* ScoutieSans-Bold.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-Bold.ttf"; path = "../assets/fonts/ScoutieSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B9E7132106848A09DDC1287 /* ScoutieSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-BoldItalic.ttf"; path = "../assets/fonts/ScoutieSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EEFB3F16218C478B99A4684D /* ScoutieSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-ExtraBold.ttf"; path = "../assets/fonts/ScoutieSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7067B4274ADC4A6A8A096F83 /* ScoutieSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/ScoutieSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		279DC5B1FB064861AC1F1565 /* ScoutieSans-ExtraLight.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-ExtraLight.ttf"; path = "../assets/fonts/ScoutieSans-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3EDB13E776141DDBD8C4D7B /* ScoutieSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-ExtraLightItalic.ttf"; path = "../assets/fonts/ScoutieSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FE34DC8164A43AA9ACC8D5D /* ScoutieSans-Italic.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-Italic.ttf"; path = "../assets/fonts/ScoutieSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3CEFD6AB99E34B67B29A1277 /* ScoutieSans-Light.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-Light.ttf"; path = "../assets/fonts/ScoutieSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		838FA72FB2F24396B7C13968 /* ScoutieSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-LightItalic.ttf"; path = "../assets/fonts/ScoutieSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ABAF704F6F2B4624A6A9DC5A /* ScoutieSans-Medium.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-Medium.ttf"; path = "../assets/fonts/ScoutieSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD2B4E9444BF4F1B9030CF47 /* ScoutieSans-MediumItalic.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-MediumItalic.ttf"; path = "../assets/fonts/ScoutieSans-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		753B8047E32643228FF38639 /* ScoutieSans-Regular.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-Regular.ttf"; path = "../assets/fonts/ScoutieSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		413BF10A029E4514AB5A2797 /* ScoutieSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-SemiBold.ttf"; path = "../assets/fonts/ScoutieSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		480C8D55A381469589FF16A7 /* ScoutieSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "ScoutieSans-SemiBoldItalic.ttf"; path = "../assets/fonts/ScoutieSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +102,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				73B34A4B69B64F7E812428F8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +125,28 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		73B34A4B69B64F7E812428F8 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				C32B1F96B43C4B0CA1EA7A40 /* ScoutieSans-Bold.ttf */,
+				6B9E7132106848A09DDC1287 /* ScoutieSans-BoldItalic.ttf */,
+				EEFB3F16218C478B99A4684D /* ScoutieSans-ExtraBold.ttf */,
+				7067B4274ADC4A6A8A096F83 /* ScoutieSans-ExtraBoldItalic.ttf */,
+				279DC5B1FB064861AC1F1565 /* ScoutieSans-ExtraLight.ttf */,
+				C3EDB13E776141DDBD8C4D7B /* ScoutieSans-ExtraLightItalic.ttf */,
+				5FE34DC8164A43AA9ACC8D5D /* ScoutieSans-Italic.ttf */,
+				3CEFD6AB99E34B67B29A1277 /* ScoutieSans-Light.ttf */,
+				838FA72FB2F24396B7C13968 /* ScoutieSans-LightItalic.ttf */,
+				ABAF704F6F2B4624A6A9DC5A /* ScoutieSans-Medium.ttf */,
+				CD2B4E9444BF4F1B9030CF47 /* ScoutieSans-MediumItalic.ttf */,
+				753B8047E32643228FF38639 /* ScoutieSans-Regular.ttf */,
+				413BF10A029E4514AB5A2797 /* ScoutieSans-SemiBold.ttf */,
+				480C8D55A381469589FF16A7 /* ScoutieSans-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -159,6 +210,20 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6865FE682AF94ED687452C43 /* ScoutieSans-Bold.ttf in Resources */,
+				95C848B0CC714E34B3E887F4 /* ScoutieSans-BoldItalic.ttf in Resources */,
+				3225D71409A64B3BA49D13B1 /* ScoutieSans-ExtraBold.ttf in Resources */,
+				5310CA9EE67F455FBCC10367 /* ScoutieSans-ExtraBoldItalic.ttf in Resources */,
+				91E9AAB83CFB4745AD074734 /* ScoutieSans-ExtraLight.ttf in Resources */,
+				6C36D625341646E398FD2A5F /* ScoutieSans-ExtraLightItalic.ttf in Resources */,
+				C50A04A774DC4F1E8DC101D3 /* ScoutieSans-Italic.ttf in Resources */,
+				155F8FDF521242C0949AAAD4 /* ScoutieSans-Light.ttf in Resources */,
+				61B77B022A2348C692436965 /* ScoutieSans-LightItalic.ttf in Resources */,
+				75CB6A1D85D94734BF084ADF /* ScoutieSans-Medium.ttf in Resources */,
+				58460CD32DE3464AB4A34B2F /* ScoutieSans-MediumItalic.ttf in Resources */,
+				5F36E05B974C4650A7CD2BAC /* ScoutieSans-Regular.ttf in Resources */,
+				AE47B3E128594CF6A3C23831 /* ScoutieSans-SemiBold.ttf in Resources */,
+				8C81C857727E45FD84C951D1 /* ScoutieSans-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

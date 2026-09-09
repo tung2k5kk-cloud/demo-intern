@@ -1,0 +1,61 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/ScoutieSans-Bold.ttf",
+      "sha1": "bce3972e6e7ddbce969d3174ac25bb1f8e14a7d2"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-BoldItalic.ttf",
+      "sha1": "63e4e064e35689e721e3efe099bc642f2810be96"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-ExtraBold.ttf",
+      "sha1": "b1882aae952c96a8a0e2c82c5097282ed16c4dac"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-ExtraBoldItalic.ttf",
+      "sha1": "cbeb60541f41db345ad0dbf83c1748e1e2789502"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-ExtraLight.ttf",
+      "sha1": "a20522eb7c6c98955bc3f64c0b92d876e64bcb49"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-ExtraLightItalic.ttf",
+      "sha1": "95645b89c8b520016eb662d380c03a9328567aba"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-Italic.ttf",
+      "sha1": "5ed010f442e9061a5cc12f84842f739ec7d4f53f"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-Light.ttf",
+      "sha1": "9b07287a69de0c320d5ebe4394502a589b06b78d"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-LightItalic.ttf",
+      "sha1": "35125724702fd0096a9b11b4559f881694cb9b54"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-Medium.ttf",
+      "sha1": "a5eee10e5feec3c1012813403ebe6d9042f92e98"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-MediumItalic.ttf",
+      "sha1": "29976a52b80edb09e0b8929ef28ab56146b45692"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-Regular.ttf",
+      "sha1": "dbf2c8abbbbf2b7e80c787b50439f7a12a79201b"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-SemiBold.ttf",
+      "sha1": "0c4700b03442cc08113868305331ebfb1ffe6139"
+    },
+    {
+      "path": "assets/fonts/ScoutieSans-SemiBoldItalic.ttf",
+      "sha1": "05bcb7781afc1687368d67aa2dbe23541358cbe8"
+    }
+  ]
+}
